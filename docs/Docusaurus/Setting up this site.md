@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Setting Up this Site
 
-![Example banner](./assets/docusaurus-logo-banner.png)
+![Example banner](/docs/assets/docusaurus-logo-banner.png)
 
 ## Overview of Docusaurus
 
