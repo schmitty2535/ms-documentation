@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Setting Up this Site
 
-See how I use **rsync** for backup.
+![Example banner](./assets/docusaurus-logo-banner.png)
 
-## Overview of Rsync
+## Overview of Docusaurus
 
 According to ChatGPT - Docusaurus is an open-source static site generator for creating documentation websites. It was designed to make it easy to maintain documentation websites for open-source projects, and includes features like automatic generation of a table of contents, search functionality, and the ability to easily update the website's layout and theme. Docusaurus is built with React, and uses Markdown for formatting content. It is intended to be easy to use and customize, and can be deployed to a variety of hosting platforms, including GitHub Pages and Netlify.
 
