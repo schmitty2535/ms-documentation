@@ -4,10 +4,7 @@ sidebar_position: 2
 
 # Adding a Custom Domain to Cloudflare Pages
 
-## Add a custom domain
-
-### To add a custom domain:
-
+#### To add a custom domain:
 1. Log in to the Cloudflare dashboard.
 2. Select your account in Account Home > Pages.
 3. Select your Pages project > Custom domains.
@@ -21,5 +18,6 @@ sidebar_position: 2
 
 7. Add the CNAME record to your DNS provider and wait for it to become available.
 
-For more information see https://developers.cloudflare.com/pages/platform/custom-domains/
+###### For more information see https://developers.cloudflare.com/pages/platform/custom-domains/
+
 
