@@ -2,9 +2,15 @@
 sidebar_position: 1
 ---
 
-# Kiosk Mode Instructions
+# Kiosk Mode
 
-#### How to setup a RPI in Kiosk mode Link to Information: [https://www.wikihow.com/Execute-a-Script-at-Startup-on-the-Raspberry-Pi](https://www.wikihow.com/Execute-a-Script-at-Startup-on-the-Raspberry-Pi) [https://pimylifeup.com/raspberry-pi-kiosk/](https://pimylifeup.com/raspberry-pi-kiosk/)
+## What is Kiosk Mode?
+
+Generally, kiosk mode is usually meant to refer to a particular “mode” that most browsers offer. “Kiosk Mode” is offered by browser applications (Internet Explorer, Chrome, Firefox etc) to run the application full screen without any browser user interface such as toolbars and menus. The intent of most people setting up “kiosk mode” is to prevent the user from running anything other than the browser based content in the full screen browser window.
+
+Kiosks tend to be deployed in a self-service environment which means the user of the kiosk is not formally associated with the kiosk. In short, the user doesn't own the kiosk and isn't responsible for the proper functioning of the kiosk. The user just wants the kiosk to provide a defined service.
+
+## How to set up Kiosk Mode on Raspberry Pi
 
 **1.** Connect to the Raspberry Pi using a keyboard and mouse and open up a terminal
 
@@ -97,12 +103,18 @@ and
 
 :::tip
 
-IMPORTANT REMINDER- After editing the code it may be necessary to disable the kiosk.service, then enable and start it again.
+After editing the code it may be necessary to disable the kiosk.service, then enable and start it again.
 
 :::
 
 :::tip
 
-IMPORTAT: To get out of kiosk mode, click CTRL+F4
+To get out of kiosk mode, click CTRL+F4
 
 :::
+
+###### For more information see the following links
+###### - https://m.kioware.com/learn/what-is-kiosk-mode
+###### - https://www.wikihow.com/Execute-a-Script-at-Startup-on-the-Raspberry-Pi
+###### - https://pimylifeup.com/raspberry-pi-kiosk/
+
