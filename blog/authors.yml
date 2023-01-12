@@ -1,17 +1,6 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+max:
+  name: Maxwell A. Schmitt
+  title: Maintainer of maxschmitty.com
+  url: https://github.com/schmitty2535
+  image_url: https://github.com/schmitty2535/schmitty2535/blob/main/screenshot%20conversion%20ms.jpg
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
