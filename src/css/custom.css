@@ -29,7 +29,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-@font-face {
-  font-family: "Segoe UI";
-  src: url('/static/Segoe UI.woff') format('woff');
+hr {
+  background-color: blueviolet;
 }
