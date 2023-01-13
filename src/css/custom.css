@@ -28,3 +28,8 @@
   --ifm-color-primary-lightest: #6ae8cd;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url('/static/Segoe UI.woff') format('woff');
+}
