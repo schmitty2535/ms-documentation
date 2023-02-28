@@ -10,7 +10,7 @@ slug: /
 
 By using this documentation site you acknowledge and agree to the following:
 1. Follow instructions carefully and always have backups (Remember the 3-2-1 Backup Rule).
-2. I am not responsible and or liable for and damages or issues that may arise from using this documentation site.
+2. I am not responsible and or liable for any damages or issues that may arise from using this documentation site.
 3. Documents are provided "as is" and should not be a substitute for any officially published documentation.
 4. The documents are not designed for beginners and assume a certain level of technical knowledge and familiarity wih each subject matter.
 :::
