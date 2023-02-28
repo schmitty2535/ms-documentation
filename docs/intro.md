@@ -2,7 +2,9 @@
 slug: /
 ---
 
-## Welcome to my documentation site!
+# Welcome to my documentation site!
+
+**Please read the following carefully before continuing on to the rest of the documentation**
 
 :::caution
 
@@ -13,6 +15,7 @@ By using this documentation site you acknowledge and agree to the following:
 4. The documents are not designed for beginners and assume a certain level of technical knowledge and familiarity wih each subject matter.
 :::
 
+----
 
 ```javascript
 const Maxwell = {
