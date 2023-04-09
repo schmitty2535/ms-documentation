@@ -111,7 +111,7 @@ The following code includes a 5-second delay before the executing the delay whic
 xset s noblank
 xset s off
 xset -dpms
-// highlight-next-line
+# highlight-next-line
 sleep 5
 
 unclutter -idle 0.5 -root &
