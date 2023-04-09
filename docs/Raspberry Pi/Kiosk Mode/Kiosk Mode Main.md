@@ -103,6 +103,29 @@ and
 
 :::tip
 
+If you restart the Raspberry Pi and the kiosk service does not start automatically, you can check the status of the service by running the following command `sudo systemctl status kiosk.service`. If the error is a result of not being able to locate the display :0.0, consider adding a delay into the script. 
+
+The following code includes a 5-second delay before the executing the delay which accesses the display. This delay can be reduced based on the time required for the display to boot up.
+```bash title="kiosk.sh" showLineNumbers
+#!/bin/bash
+xset s noblank
+xset s off
+xset -dpms
+// highlight-next-line
+sleep 5
+
+unclutter -idle 0.5 -root &
+
+sed -i 's/"exited_cleanly":false/"exited_cleanly":true/'
+/home/pi/.config/chromium/Default/Preferences
+sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/pi/.config/chromium/Default/Preferences
+// highlight-next-line
+/usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk https://google.com
+```
+:::
+
+:::tip
+
 After editing the code it may be necessary to disable the kiosk.service, then enable and start it again.
 
 :::
