@@ -66,7 +66,7 @@ const config = {
         title: 'ms.docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/ms-engineering logo.png',
+          src: 'img/ms-engineering logo-light.png',
         },
         items: [
           {
