@@ -70,6 +70,10 @@ const config = {
         },
         items: [
           {
+            type: 'search',
+            position: 'left',
+          },
+          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
