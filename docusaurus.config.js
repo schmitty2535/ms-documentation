@@ -70,16 +70,16 @@ const config = {
         },
         items: [
           {
-            type: 'search',
-            position: 'left',
-          },
-          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'search',
+            position: 'right',
+          },
           {
             href: 'https://github.com/schmitty2535',
             label: 'GitHub',
