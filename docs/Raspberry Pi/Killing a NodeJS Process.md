@@ -53,7 +53,10 @@ TO kill the process, follow the steps below:
     sudo kill -9 PID
     ```
    Replace PID with the PID from the previous step and run the command. For this example the PID is 12345.
+
 4. Once the process is killed, you can run the application without issues
+
+## Additional Information
 
 :::tip
 ### The following commands may also be useful for depending on the situation:
