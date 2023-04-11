@@ -103,6 +103,8 @@ and
 
 :::tip
 
+## Additional Information
+
 ### Troubleshooting Timing Issues
 If you restart the Raspberry Pi and the kiosk service does not start automatically, you can check the status of the service by running the following command `sudo systemctl status kiosk.service`. If the error is a result of not being able to locate the display :0.0, consider adding a delay into the script. 
 
