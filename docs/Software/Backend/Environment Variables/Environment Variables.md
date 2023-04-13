@@ -1,8 +1,7 @@
-
----  
+---
 sidebar_position: 1
-- - -  
-# Environment Variables
+---
+
 ## What is an Environment Variable (env)
 Environment variables are a list of variables that are extracted from an program/application. Environment variables are dynamic and can be easily changed base on the environment the application is being run in. Removing these variables from the application results in a more **dynamic application** with an added layer of **security** that **increases the speed of setting up** a new environment.
 
