@@ -3,17 +3,17 @@
   "name": "ms.documentation",
   "icons": [
     {
-      "src": "/img/favicon-light-full.png",
+      "src": "./img/favicon-light-full.png",
       "type": "image/svg+xml",
       "sizes": "512x512"
     },
     {
-      "src": "/images/icons-192.png",
+      "src": "/img/favicon-light-full.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/img/favicon-light-full.png",
+      "src": "./img/favicon-light-full.png",
       "type": "image/png",
       "sizes": "512x512"
     }
