@@ -2,13 +2,14 @@
 sidebar_position: 6
 ---
 
-# Building an MQTT Server Using Raspberry Pi
+# RPI as MQTT Server
 
+## Software Requirements
 **1. Install the mosquitto MQTT Broker**
 
 `mosquitto` is a popular MQTT broker that is well-supported on Debian-based Linux platforms such as Raspbian. It’s easy to install using `apt`:
 
-```text
+```bash
 sudo apt install mosquitto mosquitto-clients
 ```
 
@@ -22,19 +23,19 @@ It also means you can use the Raspberry Pi as a proper MQTT client as well as a 
 
 Enable the broker and allow it to auto-start after reboot using the following command:-
 
-```text
+```bash
 sudo systemctl enable mosquitto
 ```
 
 The broker should now be running. You can confirm by checking the `systemd` service status:-
 
-```text
+```bash
 sudo systemctl status mosquitto
 ```
 
-This should produce an output similar to:-
+The output should look similar to that below:
 
-```text
+```bash
 ● mosquitto.service - LSB: mosquitto MQTT v3.1 message broker
    Loaded: loaded (/etc/init.d/mosquitto; generated; vendor preset: enabled)
    Active: active (running) since Sat 2018-12-29 16:27:56 GMT; 22h ago
@@ -46,14 +47,15 @@ Dec 29 16:27:56 raspberrypi systemd[1]: Starting LSB: mosquitto MQTT v3.1 messag
 Dec 29 16:27:56 raspberrypi mosquitto[1679]: Starting network daemon:: mosquitto.
 Dec 29 16:27:56 raspberrypi systemd[1]: Started LSB: mosquitto MQTT v3.1 message broker.
 ```
+## Testing the MQTT Broker
 
-**3. Subscribe to the MQTT Topic Locally**
+### Subscribe to the MQTT Topic Locally
 
 In order to test the broker, you need to **subscribe** to an MQTT **topic**.
 
 A topic is simply a string that looks like a file system path. It has the general form:-
 
-```text
+```bash
 a/b/c/...
 ```
 
@@ -63,7 +65,7 @@ The great thing about MQTT is that you can just make up topics to suit your need
 
 In the existing terminal, subscribe to the `test/message` topic:-
 
-```text
+```bash
 mosquitto_sub -h localhost -t "test/message"
 ```
 
@@ -71,20 +73,25 @@ This will send a subscription message to the MQTT broker which is currently runn
 
 So long as the `mosquitto_sub` programme is running you’re listening to the `test/message` topic as an MQTT client.
 
-**4. Publish to the MQTT Topic Locally**
+### Publish to the MQTT Topic Locally
 
 Because your current terminal is occupied listening to the topic, you’ll need to open another terminal. You can do this using another SSH session or on the Raspbian GUI, depending how your system is configured.
 
 Once open, publish message to the `test/message` topic like this:-
 
-```text
+```bash
 mosquitto_pub -h localhost -t "test/message" -m "Hello, world"
 ```
 
 If you look back at the first terminal now you should see this:-
 
-```text
+```bash
 Hello, world
 ```
 
 Congratulations, you have just published your first MQTT message!
+
+
+## Additional Information
+###### For more information see the following links
+###### - 

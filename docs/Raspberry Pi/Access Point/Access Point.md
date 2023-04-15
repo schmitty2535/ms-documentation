@@ -2,6 +2,10 @@
 sidebar_position: 2
 ---
 
+# RPI as Access Point
+
+## Software Requirements
+
 Run the following commands one at a time:
 ```bash
 sudo apt install dnsmasq hostapd

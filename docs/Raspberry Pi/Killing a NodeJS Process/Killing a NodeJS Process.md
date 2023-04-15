@@ -8,6 +8,7 @@ sidebar_position: 3
 When running a NodeJS application using `node app.js` or `sudo node app.js` through a ssh connection, the process will continue to run even after the ssh connection is closed. This can happen if the ssh application is closed, the ssh client computer falls asleep, or the network connection is lost. This can be a problem if you reconnect and try to run the same application again. You will get an error that looks similar the following:
 
 ```bash
+   pi@raspberrypi:~ $ sudo node app.js
    node:events:491
          throw er; // Unhandled 'error' event
          ^
