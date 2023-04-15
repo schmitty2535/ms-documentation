@@ -4,6 +4,8 @@ slug: /
 
 # Welcome to my documentation site!
 
+## Disclaimer
+
 **Please read the following carefully before continuing on to the rest of the documentation**
 
 :::caution
