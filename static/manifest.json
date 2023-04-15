@@ -3,17 +3,17 @@
   "name": "ms.documentation",
   "icons": [
     {
-      "src": "./img/favicon-light-full.png",
+      "src": "./img/ms-engineering logo-light.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "/img/favicon-light-full.png",
+      "src": "/img/ms-engineering logo-light.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./img/favicon-light-full.png",
+      "src": "./img/ms-engineering logo-light.png",
       "type": "image/png",
       "sizes": "512x512"
     }
