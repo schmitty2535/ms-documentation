@@ -39,9 +39,7 @@ The Raspberry Pi has two rows of GPIO pins along the top edge of the board. GPIO
 | GND | GND (Ground) pins refer to pins that provide electrical grounding in your circuits. |
 
 ### GPIO Pinout
-The `pinout` command is a useful tool to reference when working with a Raspberry Pi. `pinout` is provided by the GPIO Zero Python library and comes installed by default on Raspberry Pi OS distributions.
-
-Running the `pinout` command will return an output similar to that shown below. The output gives a useful visualization of the raspberry pi board and all its connectors, as well as a quick reference pinout of the 40-pin header.
+The `pinout` command is a useful tool to reference when working with a Raspberry Pi. `pinout` is provided by the GPIO Zero Python library and comes installed by default on Raspberry Pi OS distributions. Running the `pinout` command will return an output similar to that shown below. The output gives a useful visualization of the raspberry pi board and all its connectors, as well as a quick reference pinout of the 40-pin header.
 ```Palenight  
 pi@raspberrypi:~ $ pinout  
 ,--------------------------------.  
@@ -98,7 +96,6 @@ POE:
 For further information, please refer to https://pinout.xyz/  
   
 ```
-
 ## Additional Information
 ###### For more information see the following links
 ###### - https://pinout.xyz
