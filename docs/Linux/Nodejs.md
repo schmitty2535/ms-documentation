@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 # How To Install Node.js on Ubuntu 20.04 With NVM
 
