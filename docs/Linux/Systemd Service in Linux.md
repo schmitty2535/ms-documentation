@@ -13,7 +13,7 @@ sidebar_position: 1
 :::info
 
 More information can be found in the following Digital Ocean Article [Understanding Systemd Units and Unit Files
-](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files).
+](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files)
 
 :::
 
