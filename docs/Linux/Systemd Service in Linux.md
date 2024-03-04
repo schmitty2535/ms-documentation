@@ -10,6 +10,13 @@ sidebar_position: 1
 
 [![img](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Systemd_components.svg/440px-Systemd_components.svg.png)](https://en.wikipedia.org/wiki/File:Systemd_components.svg)
 
+:::info
+
+More information can be found in the following Digital Ocean Article [Understanding Systemd Units and Unit Files
+](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files).
+
+:::
+
 ## Usage
 
 Listing all Services
@@ -34,7 +41,7 @@ systemctl cat serviceName
 
 ## Creating a Custom systemd Service
 
-In order to create a `systemd` service, you must create a "Unit file" within one of the following directories. The following list is accessable through the `man systemd.unit` command.
+In order to create a `systemd` service, you must create a "Unit file" within one of the following directories. The following list is accessable through the `man systemd.unit` command. 
 
 ```
 Load path when running in system mode (--system).
@@ -118,7 +125,7 @@ The following describes each line of this section:
 
 Save the file with the following keystrokes  `Ctr+x`, `y`, `enter`.
 
-## Running and Monitoring the Service
+### Running and Monitoring the Service
 
 To make the service file visible you must reload `systemctl` with the following command.
 
@@ -154,7 +161,7 @@ journalctl -f -u serviceName.service
 
 
 
-## Removing the systemd service
+### Removing the systemd service
 
 1. **Stop the service if it is running**
 
