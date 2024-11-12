@@ -19,15 +19,13 @@ best 3D-printed organization system for your needs.
 
 ![SCR-20241017-nkna.png](./SCR-20241017-nkna.png)
 
-
 Before diving into why I chose MultiBoard, it's important to understand what each system offers:
 
-**Gridfinity** is a modular storage system that uses a grid-based approach initially created by [Zack Freedman]
-(https://zackfreedman.com/about/). The system is designed around a consistent grid size(42x42mm), allowing you to print 
+**[Gridfinity](https://youtu.be/ra_9zU-mnl8?si=MqRmB6SB7ZLQrfsW)** is a modular storage system that uses a grid-based approach initially created by [Zack Freedman](https://zackfreedman.com/about/). The system is designed around a consistent grid size(42x42mm), allowing you to print 
 various bins, trays, and holders that snap into place on a baseplate. It’s known for its simplicity, ease of use, 
 and wide array of community-made designs.
 
-Multiboard, on the other hand, takes a similar approach but offers more flexibility in its layout. Instead of 
+**[Multiboard](https://www.multiboard.io/)**, on the other hand, takes a similar approach but offers more flexibility in its layout. Instead of 
 adhering strictly to a grid on a horizontal surfaces, Multiboard, like the name suggests, provides multiple parts of 
 the same ecosystem to support horizontal and vertical surfaces.
 
@@ -41,9 +39,9 @@ pliers and tweezers? Easy.
 - Affordability: Compared to commercial modular storage solutions, printing your own with a 3D printer can save a 
   significant amount of money, especially if you already have a printer at home.
 
-## Why I Chose MultiGrid Over Gridfinity
-After researching both systems and printing a few test pieces, I found that MultiGrid better suited my specific needs.
-Here are the key reasons why I opted for MultiGrid:
+## Why I Chose Multiboard Over Gridfinity
+After researching both systems and printing a few test pieces, I found that Multiboard better suited my specific needs.
+Here are the key reasons why I opted for Multiboard:
 
 1. Flexibility in Layout and Design
    The biggest advantage of MultiGrid is its flexibility. While Gridfinity’s uniformity is a strength, it can be
