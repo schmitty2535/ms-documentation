@@ -8,7 +8,7 @@ tags: [3d-printing, organization, storage, gridfinity, multiboard]
 Staying organized in my hobby space has always been challenging, especially when my collection of tools and supplies 
 continue to grow as I take on new projects. Thankfully, 3D printing is one of my hobbies and because of its 
 versatility, and community of makers, I've found that it can be a great tool for organizing my space. Throughout my 
-search, Gridfinity and MultiBoard have revealed themselves as two of the most popular 3D printed systems for 
+search, Gridfinity and Multiboard have revealed themselves as two of the most popular 3D printed systems for 
 organization. After careful consideration, I decided to go with MultiBoard and here's why, and how you can find the 
 best 3D-printed organization system for your needs.
 
@@ -22,25 +22,26 @@ best 3D-printed organization system for your needs.
 
 Before diving into why I chose MultiBoard, it's important to understand what each system offers:
 
-Gridfinity is a modular storage system that uses a grid-based approach. The system is designed around a consistent grid
-size, allowing you to print various bins, trays, and holders that snap into place on a baseplate. It’s known for its
-simplicity, ease of use, and wide array of community-made designs.
+**Gridfinity** is a modular storage system that uses a grid-based approach initially created by [Zack Freedman]
+(https://zackfreedman.com/about/). The system is designed around a consistent grid size(42x42mm), allowing you to print 
+various bins, trays, and holders that snap into place on a baseplate. It’s known for its simplicity, ease of use, 
+and wide array of community-made designs.
 
-MultiGrid, on the other hand, takes a similar approach but offers more flexibility in its layout. Instead of adhering
-strictly to one grid size, MultiGrid allows users to create custom baseplates with different configurations. It
-maintains compatibility with some aspects of the Gridfinity system but is generally more open to different design styles
-and use cases.
+Multiboard, on the other hand, takes a similar approach but offers more flexibility in its layout. Instead of 
+adhering strictly to a grid on a horizontal surfaces, Multiboard, like the name suggests, provides multiple parts of 
+the same ecosystem to support horizontal and vertical surfaces.
 
-Why Go with a 3D Printed Organization System?
-Both Gridfinity and MultiGrid have become popular for a few key reasons:
+## Why Go with a 3D Printed Organization System?
+Both Gridfinity and Multiboard have become popular for a few key reasons:
 
-Customization: You can print exactly what you need. Need a bin with slots for small screws? Done. Want a holder for
+- Customization: You can print exactly what you need. Need a bin with slots for small screws? Done. Want a holder for
 pliers and tweezers? Easy.
-Modularity: The ability to rearrange and expand your storage as your needs change is invaluable. These systems allow you
-to grow your setup without starting over.
-Affordability: Compared to commercial modular storage solutions, printing your own with a 3D printer can save a
-significant amount of money, especially if you already have a printer at home.
-Why I Chose MultiGrid Over Gridfinity
+- Modularity: The ability to rearrange and expand your storage as your needs change is invaluable. These systems 
+  allow you to grow your setup without starting over.
+- Affordability: Compared to commercial modular storage solutions, printing your own with a 3D printer can save a 
+  significant amount of money, especially if you already have a printer at home.
+
+## Why I Chose MultiGrid Over Gridfinity
 After researching both systems and printing a few test pieces, I found that MultiGrid better suited my specific needs.
 Here are the key reasons why I opted for MultiGrid:
 
