@@ -12,6 +12,8 @@ search, Gridfinity and MultiBoard have revealed themselves as two of the most po
 organization. After careful consideration, I decided to go with MultiBoard and here's why, and how you can find the 
 best 3D-printed organization system for your needs.
 
+<!-- truncate -->
+
 -----
 ## Understanding the Basics: Gridfinity vs. MultiBoard
 
