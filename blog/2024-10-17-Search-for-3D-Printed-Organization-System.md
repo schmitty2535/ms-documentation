@@ -2,7 +2,7 @@
 slug: 3d-printed-organization-system
 title: Finding the Best 3D Printed Organization System
 authors: max
-tags: [3d-printing, organization, storage, gridfinity, multigrid]
+tags: [3d-printing, organization, storage, gridfinity, multiboard]
 ---
 
 Staying organized in my hobby space has always been challenging, especially when my collection of tools and supplies 
@@ -13,7 +13,7 @@ organization. After careful consideration, I decided to go with MultiBoard and h
 best 3D-printed organization system for your needs.
 
 -----
-Understanding the Basics: Gridfinity vs. MultiBoard
+## Understanding the Basics: Gridfinity vs. MultiBoard
 
 ![SCR-20241017-nkna.png](./SCR-20241017-nkna.png)
 
